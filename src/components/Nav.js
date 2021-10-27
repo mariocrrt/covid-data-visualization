@@ -26,9 +26,7 @@ export function NavComponent() {
                         <Link className="px-4 links" to="/about">
                             About
                         </Link>
-                        <Link className="px-4 links" to="#">
-                            Blog
-                        </Link>
+
                         <a
                             className="px-4 links"
                             target="_blank"
