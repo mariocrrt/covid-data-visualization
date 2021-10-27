@@ -5,7 +5,6 @@ import { Container } from "react-bootstrap";
 import { About } from "./components/About";
 import { FooterComponent } from "./components/Footer";
 import { Route, Switch } from "react-router";
-import { BrowserRouter } from "react-router-dom";
 import { ChartComp } from "./components/ChartComp";
 import { HashRouter as Router } from "react-router-dom";
 
