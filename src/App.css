@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+.container {
+    max-width: 1050px;
+    line-height: 2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    font-size: clamp(2.5rem, 5.5vw, 4.5rem);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,
+h2 {
+    font-family: "Oswald";
 }
 
-.App-link {
-  color: #61dafb;
+.about-links {
+    color: black;
+    display: contents;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-links:hover {
+    color: rgb(255, 99, 132);
+}
+
+.sub {
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    font-family: "Oswald";
+}
+
+li,
+ul {
+    line-height: 1.4;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../src/assets/hamburger.svg") !important;
+}
+
+.image-div-about-1 {
+    background-image: url("../src/assets/about-banner-1.jpeg");
+    background-position: inherit;
+    padding-bottom: 55%;
+    border-radius: 3px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+}
+
+a:hover {
+    color: white;
+}
+
+.links {
+    margin: 0px 0px 0px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.links:hover {
+    background-color: rgb(83, 163, 255);
+    color: white;
 }
