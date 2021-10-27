@@ -1,2 +1,0 @@
-(this["webpackJsonpdata-visualization"]=this["webpackJsonpdata-visualization"]||[]).push([[0],{10:function(t,e,n){"use strict";n.r(e);var i=n(1),a=n.n(i),c=n(3),s=n.n(c),r=(n(8),n(0));var o=function(){return Object(r.jsx)("div",{className:"App",children:Object(r.jsx)("h1",{children:"Hello World!"})})};s.a.render(Object(r.jsx)(a.a.StrictMode,{children:Object(r.jsx)(o,{})}),document.getElementById("root"))},8:function(t,e,n){}},[[10,1,2]]]);
-//# sourceMappingURL=main.db8ed872.chunk.js.map
